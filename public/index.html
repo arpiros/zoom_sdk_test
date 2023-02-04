@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Zoom WebSDK Example</title>
+    <meta charset="utf-8" />
+    <link type="text/css" rel="stylesheet" href="https://source.zoom.us/2.9.5/css/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="https://source.zoom.us/2.9.5/css/react-select.css" />
+  <style>
+    .myButton {
+      background-color: #2D8CFF;
+      border: none;
+      color: white;
+      padding: 6px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <input type="text" id="display_name" maxLength="20" placeholder="Name" required>
+  <input type="text" id="meeting_number" maxLength="200" style="width:150px" placeholder="Meeting Number" required>
+  <input type="text" id="meeting_pwd" style="width:150px" maxLength="32" placeholder="Meeting Password">
+  <button id="join_meeting" class="myButton">Join</button>
+
+  <script src="https://source.zoom.us/2.9.5/lib/vendor/react.min.js"></script>
+  <script src="https://source.zoom.us/2.9.5/lib/vendor/react-dom.min.js"></script>
+  <script src="https://source.zoom.us/2.9.5/lib/vendor/redux.min.js"></script>
+  <script src="https://source.zoom.us/2.9.5/lib/vendor/redux-thunk.min.js"></script>
+  <script src="https://source.zoom.us/2.9.5/lib/vendor/lodash.min.js"></script>
+  <script src="https://source.zoom.us/zoom-meeting-2.9.5.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
